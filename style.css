@@ -45,7 +45,7 @@ nav{
     display: flex;
     align-items: center;
     height: 2.8rem;
-    width: 30girem;
+    width: 30rem;
     padding-left: 20rem;
 
 }
@@ -56,6 +56,7 @@ nav{
 
 .input-wrapper{
     margin-right: 50rem;
+    gap: 1rem;
 }
 
 .search{
@@ -64,16 +65,13 @@ nav{
     border-left: 1px solid #000;
 }
 
-/* .mic{
+.mic{
     height: 1.8rem;
-} */
-
-.mic-wrapper{
-    height: 2.8rem;
-    width: 2.8rem;
-
 }
 
+.mic :hover{
+    background-color: #cdcdcd;
+}
 .notifications-wrapper{
     padding-right: 5rem;
     display: flex;
@@ -128,7 +126,7 @@ span{
     flex-wrap: wrap;
 }
 #input{
-    width: 20rem;
+    width: 40rem;
     border-radius: 10px;
     height: 2rem;
 }
@@ -153,6 +151,7 @@ a{
     width: 100%;
     background-color: #cdcdcd;
     border-radius: 5px;
+        font-size: medium;
 }
 
 .section-3{
